@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mustafa</title>
+    <meta name="description" content="Portfolio Template for Developer" />
+    <link rel="icon" href="assets/png/venus.png">
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Emailjs service -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("7FYJBVDaBxJA29JqY");
+   })();
+</script>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__content">
+        <div class="header__logo-container">
+          
+          <span class="header__logo-sub">Mustafa <span class="lastname">Aal-sahek</span> </span>
+        </div>
+        <div class="header__main">
+          <ul class="header__links">
+            <li class="header__link-wrapper">
+              <a href="./index.html" class="header__link"> Home </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#about" class="header__link">About </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#projects" class="header__link">
+                Projects
+              </a>
+            </li>
+            <li class="header__link-wrapper">
+              <a href="./index.html#form" class="header__link"> Contact </a>
+            </li>
+          </ul>
+          <div class="header__main-ham-menu-cont">
+            <img
+              src="./assets/svg/ham-menu.svg"
+              alt="hamburger menu"
+              class="header__main-ham-menu"
+            />
+            <img
+              src="./assets/svg/ham-menu-close.svg"
+              alt="hamburger menu close"
+              class="header__main-ham-menu-close d-none"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="header__sm-menu">
+        <div class="header__sm-menu-content">
+          <ul class="header__sm-menu-links">
+            <li class="header__sm-menu-link">
+              <a href="./index.html"> Home </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#about"> About </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#projects"> Projects </a>
+            </li>
+
+            <li class="header__sm-menu-link">
+              <a href="./index.html#contact"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section class="home-hero">
+      <div class="home-hero__content">
+<!--  intro text  -->
+        <div class="heading-primary intro-fade">
+
+          <span class="intro headline ">hi,</span>
+          <span class="intro headline">this</span>
+          <span class="intro headline">is</span>
+          <span class="intro headline">mustafa</span>
+        <br>
+          <span class="intro">get</span>
+          <span class="intro">me</span>
+          <span class="intro">fascinating</span>
+          <span class="intro">goals,</span>
+          <span class="intro">hard</span>
+          <span class="intro">tasks,</span>
+          <span class="intro">and</span>
+          <span class="intro">where</span>
+          <span class="intro">the</span>
+          <span class="intro">coffee</span>
+          <span class="intro">at</span>
+          <span class="intro">and</span>
+          <span class="intro">witness</span>
+          <span class="intro">unleashing</span>
+          <span class="intro">the</span>
+          <span class="intro">artistry</span>
+        </div>
+        <!--Brian Tracy-->
+        <!-- <h1 class="heading-primary">Hey, I'm Mustafa Aal-sahek</h1>
+        <div class="home-hero__info">
+          <p class="text-primary">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente solutions for
+            complex problems
+          </p>
+        </div> -->
+        <div class="home-hero__cta">
+          <a href="./#projects">
+          <div class="button-container-1">
+            <span class="mas">EXPLORE</span>
+            <button id="work" class="work" type="button" name="Hover">
+              PROJECTS
+            </button>
+          </a>
+          </div>
+          <!-- <a href="./#projects" class="btn btn--bg">Projects</a> -->
+        </div>
+      </div>
+      <div class="home-hero__socials">
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/github-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        
+        <div class="home-hero__social">
+          <a href="#" class="home-hero__social-icon-link">
+            <img
+              src="./assets/png/gmail.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
+          <a
+            href="#"
+            class="home-hero__social-icon-link home-hero__social-icon-link--bd-none"
+          >
+            <img
+              src="./assets/png/codepen.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+      </div>
+      <div class="home-hero__mouse-scroll-cont">
+        <div class="mouse"></div>
+      </div>
+    </section>
+    <section id="about" class="about sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main">About Me</span>
+          <!-- <span class="heading-sec__sub">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
+            tempora explicabo quae quod deserunt eius sapiente
+          </span> -->
+        </h2>
+        <div class="about__content">
+          <div class="about__content-main">
+            <h3 class="about__content-title">A little more about me!</h3>
+            <div class="about__content-details">
+              <p class="about__content-details-para">
+                A cooperative team player as my colleagues and superiors describe me. 
+                Building and designing websites alongside strong technical skills in Cloud 
+                and software development. I'm proficient in leadership, coordination, 
+                communication, project management, and event planning.
+              </p>
+              <p class="about__content-details-para">
+                I am an efficient professional who has been consistently praised as hard-working
+                 and motivated person. Over the course of multiple positions in IT field career,
+                  I’ve developed a skill set including end-user support, network administration,
+                   web development, Cloud Services, and data centre, debugging and
+                    developing software design and functionality, including data navigation
+                     methods, information input process, GUI responding, and accessibility.
+              </p>
+            </div>
+            <!-- <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+              >Contact</a
+            > -->
+          </div>
+          <div class="about__content-skills">
+            <h3 class="about__content-title">My Skills</h3>
+            <div class="skills">
+              <div class="skills__skill">HTML</div>
+              <div class="skills__skill">CSS</div>
+              <div class="skills__skill">JavaScript</div>
+              <div class="skills__skill">React</div>
+              <div class="skills__skill">SASS</div>
+              <div class="skills__skill">GIT</div>
+              <div class="skills__skill">CCNA</div>
+              <div class="skills__skill">Wordpress</div>
+              <div class="skills__skill">Bootstrap</div>
+              <div class="skills__skill">Certified Scrum Master</div>
+              <div class="skills__skill">AWS</div>
+              <div class="skills__skill">MS Azure</div>
+              <div class="skills__skill">Digital marketing</div>
+              <div class="skills__skill">Project management</div>
+              <div class="skills__skill">Leadership</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects sec-pad">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-bg">
+          <span class="heading-sec__main">Projects</span>
+          <span class="heading-sec__sub">
+            In the recent past, I had the opportunity to work on multiple projects 
+            with the purpose of broadening my knowledge and refining my skills in 
+            frontend development. These projects represent part of the journey I undertook to 
+            enhance my expertise in JavaScript and ReactJS.
+          </span>
+        </h2>
+
+        <div class="projects__content">
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-1.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Password Generator</h3>
+              <p class="projects__row-content-desc">
+                A Javascript project to generate random passwords 
+                with a button to copy the password afterwords restart the page
+              </p>
+              <a
+                href="./project-1.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-2.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Match</h3>
+              <p class="projects__row-content-desc">
+                A CV generator and database was built by Futurice, owned and used by 
+                Startup Refugees NPO. Includes XML, Sass, Javascript, typescript, React, etc. on the frontend side
+              </p>
+              <a
+                href="./project-2.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-3.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">To Do List</h3>
+              <p class="projects__row-content-desc">
+                Minimalist To Do project with mutiple options of tasks displaying
+                I used here vanilla javascript while in my first stages in learning it
+                 and new way of styling
+              </p>
+              <a
+                href="./project-3.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+          <div class="projects__row">
+            <div class="projects__row-img-cont">
+              <img
+                src="./assets/jpeg/project-4.png"
+                alt="Software Screenshot"
+                class="projects__row-img"
+                loading="lazy"
+              />
+            </div>
+            <div class="projects__row-content">
+              <h3 class="projects__row-content-title">Calculator</h3>
+              <p class="projects__row-content-desc">
+                One of my first projects with ReactJS and understanding the the logic of it.
+                 Additional to React I used JS as well and Sass
+              </p>
+              <a
+                href="./project-4.html"
+                class="btn btn--med btn--theme dynamicBgClr"
+                target="_blank"
+                >Case Study</a
+              >
+            </div>
+          </div>
+        
+      </div>
+    </section>
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h2 class="heading heading-sec heading-sec__mb-med">
+          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__sub heading-sec__sub--lt">
+            Drop me a message and let's talk and answer all your questions. 
+            Also you can check out my resume for different angle of me
+          </span>
+        </h2>
+        <div class="contact__form-container" id="form">
+          <form action="#" class="contact__form" >
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                id="fullname"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="text"
+                class="contact__form-input"
+                id="email-id"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input"
+                placeholder="Enter Your Message"
+                id="message"
+              ></textarea>
+            </div>
+            <div class="contact-buttons">
+            
+            <button type="submit" id="form-button" class="btn btn--theme contact__btn resume" >
+              <a href="assets/Mustafa Aal-sahek.pdf" target="_blank"> resume</a>
+            </button>
+            <button type="submit" id="form-button" class="btn btn--theme contact__btn" onclick="SendMail()">
+              Send
+            </button>
+          </div>
+            
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+    
+  </body>
+</html>
