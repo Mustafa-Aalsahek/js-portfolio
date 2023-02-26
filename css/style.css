@@ -498,8 +498,8 @@ textarea {
       .contact__form-field {
         margin-bottom: 3rem; } }
   .contact__form-label {
-    color: #666;
-    font-size: 1.4rem;
+    color: #eee;
+    font-size: 2.4rem;
     letter-spacing: 1px;
     font-weight: 700;
     margin-bottom: 1rem;
@@ -547,7 +547,7 @@ textarea {
         justify-content: space-between;
       }
       .resume{
-        
+        align-items: center;
         background-color: #7C8483;
       }
   .contact__btn {
@@ -563,6 +563,49 @@ textarea {
           font-size: 3rem;
           letter-spacing: 5px;
         }
+#form{
+  color: #fff;
+  padding: 20px;
+  height: auto;
+  margin: 0 auto;
+  background: rgba(225, 225, 225, 0.1);
+  border-radius: 10px;
+  border-top: 1px solid rgba(225, 225, 225, 0.4);
+  border-left: 1px solid rgba(225, 225, 225, 0.2);
+  border-right: thin solid rgba(225, 225, 225, 0.3);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.1);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 28px 48px rgba(0, 0, 0, 0.3);
+  place-content: center;
+}
+#fullname, #email-id, #message{
+  display: block;
+  color: #fff;
+  width: 100%;
+  height: 45px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding: 10px;
+  outline: none;
+  background: rgba(225, 225, 225, 0.1);
+  border: none;
+  border-top: 1px solid rgba(225, 225, 225, 0.3);
+  box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.1);
+}
+#message{
+  height: 120px;
+}
+#form-button{
+  outline: none;
+  background: rgba(225, 225, 225, 0.3);
+  border: none;
+  border-top: 1px solid rgba(225, 225, 225, 0.3);
+  box-shadow: 0px 10px 21px rgba(0, 0, 0, 0.1);
+}
+#form-button:hover{
+  background: #db7202;
+  transition: 0.8s;
+}
 .project-cs-hero {
   color: #fff;
   background: linear-gradient(to right, rgba(219, 114, 2, 0.8), rgba(219, 114, 2, 0.8)), url(../../assets/svg/orange.svg);
@@ -675,8 +718,6 @@ textarea {
     cursor: pointer;
     color: #333;
     transition: color .3s; }
-    .header__logo-container:hover {
-      color: #db7202; }
   .header__logo-img-cont {
     width: 5rem;
     height: 5rem;

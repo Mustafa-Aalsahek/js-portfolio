@@ -1,3 +1,11 @@
+let docTitle = document.title;
+window.addEventListener("blur", ()=>{
+  document.title = "I'm here!";
+});
+window.addEventListener("focus", ()=>{
+  document.title = docTitle;
+})
+
 // ---
 const hamMenuBtn = document.querySelector('.header__main-ham-menu-cont')
 const smallMenu = document.querySelector('.header__sm-menu')
